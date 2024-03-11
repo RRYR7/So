@@ -22,7 +22,7 @@ from pyrogram.errors import MessageNotModified
 async def cr_source(client: Client, message: Message):
     await message.reply_video(
       video=f"https://graph.org/file/0dcc6d8776f5486169077.mp4",
-        caption=f"""<b>⭓ ميوزك✘كيفن ♪\n<b>⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼</b>""",
+        caption=f"""<b>⭓ ميوزك✘كيفن ♪\n<b>⍟ سورس ميوزك كيفن</b>""",
         reply_markup=InlineKeyboardMarkup(
                    [
                 [
@@ -48,7 +48,7 @@ async def cr_source(client: Client, message: Message):
 @app.on_callback_query(filters.regex("zzzback"))
 async def zzzback(_, query: CallbackQuery):
    await query.edit_message_text(
-       f"""<b>⭓ ميوزك كيفن✘ ♪\n<b>⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼""",
+       f"""<b>⭓ ميوزك كيفن✘ ♪\n<b>⍟ سورس ميوزك كيفن""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
