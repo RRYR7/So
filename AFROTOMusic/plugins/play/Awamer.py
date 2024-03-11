@@ -22,7 +22,7 @@ from pyrogram.errors import MessageNotModified
 async def cr_source(client: Client, message: Message):
     await message.reply_video(
       video=f"https://graph.org/file/0dcc6d8776f5486169077.mp4",
-        caption=f"""<b>⭓سورس ميوزك✘الزعيم ♪\n<b>⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼</b>""",
+        caption=f"""<b>⭓ ميوزك✘كيفن ♪\n<b>⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼</b>""",
         reply_markup=InlineKeyboardMarkup(
                    [
                 [
@@ -39,7 +39,7 @@ async def cr_source(client: Client, message: Message):
                      " اوامــر المطــور ", callback_data="zzzdv"),
                  ],[
                     InlineKeyboardButton(
-                        "•✯ ᯓ 「سورس ميوزك الزعيم」، ⦃𓏛 ✯•", url="https://t.me/VVV5P"),
+                        "•✯ ᯓ 「 ميوزك كيفن」، ⦃𓏛 ✯•", url="https://t.me/FFFH0"),
                 ],
             ]
         ),
@@ -48,7 +48,7 @@ async def cr_source(client: Client, message: Message):
 @app.on_callback_query(filters.regex("zzzback"))
 async def zzzback(_, query: CallbackQuery):
    await query.edit_message_text(
-       f"""<b>⭓سورس ميوزك الزعيم✘ ♪\n<b>⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼""",
+       f"""<b>⭓ ميوزك كيفن✘ ♪\n<b>⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -65,7 +65,7 @@ async def zzzback(_, query: CallbackQuery):
                             " اوامــر المطــور ", callback_data="zzzdv"),
                 ],[ 
                     InlineKeyboardButton(
-                        "•✯「سورس ميوزك الزعيم」، ✯•", url="https://t.me/T_5_G"),
+                        "•✯「 ميوزك كيفن」، ✯•", url="https://t.me/SSSTF"),
                 ],
             ]
         ),
