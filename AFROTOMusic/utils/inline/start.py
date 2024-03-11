@@ -13,12 +13,12 @@ def start_panel(_):
          [InlineKeyboardButton(text=_["S_B_4"], callback_data="zzzback")],
         [
             InlineKeyboardButton(text="قناة السورس", url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text="جروب السورس", url=f"https://t.me/EEEW2"),
+            InlineKeyboardButton(text="قناة السورس", url=f"https://t.me/FFFH0"),
         ],
         [
          
             InlineKeyboardButton(
-                text="⭓الزعيم✘عبود ♪",
+                text="⭓ميوزك✘كيفن ♪",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
@@ -35,12 +35,12 @@ def private_panel(_):
          [InlineKeyboardButton(text=_["S_B_4"], callback_data="zzzback")],
         [
             InlineKeyboardButton(text=" قناة السورس", url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text="جروب السورس", url=f"https://t.me/EEEW2"),
+            InlineKeyboardButton(text="قناة السورس", url=f"https://t.me/FFFH0"),
         ],
         [
          
             InlineKeyboardButton(
-                text="⭓الزعيم✘عبود ♪",
+                text="⭓ميوزك✘كيفن ♪",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
