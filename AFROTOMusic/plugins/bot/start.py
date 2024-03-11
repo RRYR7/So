@@ -48,7 +48,7 @@ async def start_pm(client, message: Message, _):
             for result in (await results.next())["result"]:
                 title = result["title"]
                 duration = result["duration"]
-                views = result["viewCount"]["short"]
+                views = result["viewCount"]["mhort"]
                 thumbnail = result["thumbnails"][0]["url"].split("?")[0]
                 channellink = result["channel"]["link"]
                 channel = result["channel"]["name"]
