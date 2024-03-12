@@ -99,7 +99,7 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://graph.org/file/caeef4bf2ba9bf4f723cd.jpg"
 )
 START_video_URL = getenv(
-    "START_video_URL", "https://graph.org/file/6379ec493c5602c97b307.mp4"
+    "START_video_URL", "https://telegra.ph/file/ad25b873df9aface84c0f.mp4"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/caeef4bf2ba9bf4f723cd.jpg"
