@@ -63,16 +63,16 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],[
-            InlineKeyboardButton(text="ᯓ استمرار ", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ ايقاف ", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ تكرار ", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="استمرار ", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="ايقاف ", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="تكرار ", callback_data=f"ADMIN Replay|{chat_id}"),
         ],[
-            InlineKeyboardButton(text="ᯓ تخطي ‌", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ انهاء ", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="تخطي ‌", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="انهاء ", callback_data=f"ADMIN Stop|{chat_id}"),
         ],[    
-           InlineKeyboardButton(text="ميوزك كيفن 𓄹メ", user_id=config.OWNER_ID),
+           InlineKeyboardButton(text="", user_id=config.OWNER_ID),
         ],[
-            InlineKeyboardButton(text="𖣂 اضف البوت الي مجموعتك 𖣂", url=f"https://t.me/{app.username}?startgroup=true")],
+            InlineKeyboardButton(text="اضف البوت الي مجموعتك", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
     return buttons
 
@@ -80,16 +80,16 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="ᯓ استمرار  ", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ ايقاف ", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ تكرار ", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="استمرار  ", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="ايقاف ", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="تكرار ", callback_data=f"ADMIN Replay|{chat_id}"),
         ],[
-            InlineKeyboardButton(text="ᯓ تخطي ‌", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ انهاء ", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="تخطي ‌", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="انهاء ", callback_data=f"ADMIN Stop|{chat_id}"),
         ],[
-          InlineKeyboardButton(text="ميوزك كيفن 𓄹メ", user_id=config.OWNER_ID),
+          InlineKeyboardButton(text="", user_id=config.OWNER_ID),
         ],[
-            InlineKeyboardButton(text="𖣂 اضف البوت الي مجموعتك 𖣂", url=f"https://t.me/{app.username}?startgroup=true")],
+            InlineKeyboardButton(text="اضف البوت الي مجموعتك", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
     return buttons
 
