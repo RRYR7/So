@@ -39,7 +39,7 @@ async def cr_source(client: Client, message: Message):
                      " اوامــر المطــور ", callback_data="zzzdv"),
                  ],[
                     InlineKeyboardButton(
-                        "•✯ ᯓ 「 ميوزك كيفن」، ⦃𓏛 ✯•", url="https://t.me/FFFH0"),
+                        "ميوزك كيفن", url="https://t.me/FFFH0"),
                 ],
             ]
         ),
@@ -65,7 +65,7 @@ async def zzzback(_, query: CallbackQuery):
                             " اوامــر المطــور ", callback_data="zzzdv"),
                 ],[ 
                     InlineKeyboardButton(
-                        "•✯「 ميوزك كيفن」، ✯•", url="https://t.me/SSSTF"),
+                        "ميوزك كيفن", url="https://t.me/SSSTF"),
                 ],
             ]
         ),
