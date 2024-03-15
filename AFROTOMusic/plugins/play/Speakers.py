@@ -50,7 +50,7 @@ async def strcall(client, message):
         await message.reply(f"{text}")
 @app.on_message(filters.video_chat_started)
 async def brah(client, message):
-       await message.reply(" بدأت المحادثة الصوتية 👤")
+       await message.reply("<b>بدأت المحادثة الصوتية 👤</b>")
 @app.on_message(filters.video_chat_ended)
 async def brah2(client, message):
     da = message.video_chat_ended.duration
