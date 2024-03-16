@@ -72,7 +72,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],[    
            InlineKeyboardButton(text="", user_id=config.OWNER_ID),
         ],[
-            InlineKeyboardButton(text="اضف البوت الي مجموعتك", url=f"https://t.me/{app.username}?startgroup=true")],
+            InlineKeyboardButton(text="ضيفني لقروبك", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
     return buttons
 
@@ -89,7 +89,7 @@ def stream_markup(_, chat_id):
         ],[
           InlineKeyboardButton(text="", user_id=config.OWNER_ID),
         ],[
-            InlineKeyboardButton(text="اضف البوت الي مجموعتك", url=f"https://t.me/{app.username}?startgroup=true")],
+            InlineKeyboardButton(text="ضيفني لقروبك", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
     return buttons
 
