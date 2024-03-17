@@ -18,7 +18,7 @@ def start_panel(_):
         [
          
             InlineKeyboardButton(
-                text="⭓ميوزك✘كيفن ♪",
+                text="𝐊𝒆𝒗𝒊𝒏 𝐒𝒐𝒓𝒄𝒆♪",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
@@ -40,7 +40,7 @@ def private_panel(_):
         [
          
             InlineKeyboardButton(
-                text="⭓ميوزك✘كيفن ♪",
+                text="𝐊𝒆𝒗𝒊𝒏 𝐒𝒐𝒓𝒄𝒆♪",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
