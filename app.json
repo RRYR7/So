@@ -38,7 +38,7 @@
         "required": false
       },
       "LOGGER_ID": {
-        "description": "ايـدي قروب السـجل",
+        "description": "أيدي جروب السـجل",
         "value": "-100",
         "required": true
       }
