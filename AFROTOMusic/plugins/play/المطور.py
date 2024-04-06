@@ -20,7 +20,7 @@ async def maker(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Updates", url=config.SUPPORT_CHAT
+                        "Updates", url=config.SUPPORT_CHANNEL
                     ),
                 ],
             ]
